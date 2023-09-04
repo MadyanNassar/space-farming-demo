@@ -85,6 +85,7 @@ h3 {
   font-style: italic;
   line-height: 1.75;
   color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 #main hr {
   width: 25%;
