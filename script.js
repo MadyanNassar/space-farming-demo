@@ -1,5 +1,4 @@
 const listen_btn = document.getElementById("listen-btn");
-const audio_animation = document.getElementById("audio-animation");
 const player = document.getElementById("player");
 const played_button = document.getElementById("play-btn");
 const audio_position = document.getElementById("audio-position");
@@ -13,21 +12,18 @@ function playPause() {
     audio.play();
     controlBtn.className = "pause";
     played_button.classList.toggle("active");
-    audio_animation.style.opacity = 1;
     player.style.opacity = 1;
   } else {
     audio.pause();
     played_button.classList.toggle("active");
 
     controlBtn.className = "play";
-    audio_animation.style.opacity = 0;
   }
 }
 listen_btn.addEventListener("click", playPause);
 played_button.addEventListener("click", playPause);
 audio.addEventListener("ended", function () {
   controlBtn.className = "play";
-  audio_animation.style.opacity = 0;
   played_button.classList.toggle("active");
 });
 
