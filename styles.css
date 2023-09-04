@@ -613,6 +613,6 @@ time {
 @media (max-width: 700px) {
   p {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 20px;
   }
 }
