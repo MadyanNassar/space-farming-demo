@@ -170,6 +170,7 @@ p:nth-child(1):first-letter {
   font-weight: 700;
   transition: color 0.2s;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   padding-top: 1em;
   padding-bottom: 1em;
 }
