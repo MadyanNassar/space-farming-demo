@@ -618,8 +618,11 @@ time {
   .title {
     font-size: 40px;
   }
+  #intro p {
+    font-size: x-large;
+  }
   p {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 30px;
   }
   #listen-btn {
@@ -630,6 +633,9 @@ time {
 @media (max-width: 700px) {
   .title {
     font-size: 35px;
+  }
+  #intro p {
+    font-size: large;
   }
   p {
     font-size: 17px;
